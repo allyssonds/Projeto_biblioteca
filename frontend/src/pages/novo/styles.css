@@ -1,0 +1,36 @@
+#conteudo-novo{
+    font-size: 20px;
+    width: 50%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 15px;
+}
+
+
+input {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 5px 5px 0px;
+}
+
+#salvar{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+    /*margin-left: 25%;*/
+    border: 2px solid green;
+    background-color: white;
+    padding: 15px;
+    transition-duration: 0.4s;
+}
+
+
+#salvar:hover{
+    transition-duration: 0.4s;
+    background-color: rgb(61, 141, 61);
+    border: 2px solid gainsboro;
+    color: white;
+}

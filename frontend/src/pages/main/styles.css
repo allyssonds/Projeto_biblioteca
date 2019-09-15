@@ -1,0 +1,39 @@
+#conteudo {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 100px 25px 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+article {
+    margin: 10px;
+    background: whitesmoke;
+    padding: 5px;
+    width: 15%;
+}
+
+#card {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+#apagar {
+    background-color: white;
+    border: 2px solid red;
+    padding: 10px;
+    width: 100%;
+}
+
+#apagar:hover{
+    background-color: rgb(248, 84, 84);
+    color: white;
+}
+
+#nome {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
